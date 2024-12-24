@@ -1,0 +1,100 @@
+{
+  "id": "hpodrt8V7YQ3e6Po633eq",
+  "created": "2024-12-24T10:50:10.788Z",
+  "updated": "2024-12-24T11:16:30.934Z",
+  "projectId": "fZMIy4fzXdBYL7r8FeZN4",
+  "folderId": null,
+  "status": "ENABLED",
+  "schedule": null,
+  "publishedVersionId": "SPxe6MURjU5lpA9NeK8VL",
+  "version": {
+    "id": "SPxe6MURjU5lpA9NeK8VL",
+    "created": "2024-12-24T11:16:04.306Z",
+    "updated": "2024-12-24T11:16:30.958Z",
+    "flowId": "hpodrt8V7YQ3e6Po633eq",
+    "displayName": "Untitled",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "authType": "none",
+          "authFields": {}
+        },
+        "pieceName": "@activepieces/piece-webhook",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "catch_webhook",
+        "pieceVersion": "0.1.10"
+      },
+      "nextAction": {
+        "name": "step_1",
+        "skip": false,
+        "type": "PIECE",
+        "valid": true,
+        "settings": {
+          "input": {},
+          "pieceName": "@activepieces/piece-forms",
+          "pieceType": "OFFICIAL",
+          "actionName": "return_response",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "0.4.2",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": false
+            },
+            "continueOnFailure": {
+              "value": false
+            }
+          }
+        },
+        "nextAction": {
+          "name": "step_2",
+          "skip": false,
+          "type": "PIECE",
+          "valid": true,
+          "settings": {
+            "input": {
+              "fields": {
+                "body": {},
+                "status": 200,
+                "headers": {}
+              },
+              "responseType": "json"
+            },
+            "pieceName": "@activepieces/piece-webhook",
+            "pieceType": "OFFICIAL",
+            "actionName": "return_response",
+            "inputUiInfo": {
+              "customizedInputs": {}
+            },
+            "packageType": "REGISTRY",
+            "pieceVersion": "0.1.10",
+            "errorHandlingOptions": {
+              "retryOnFailure": {
+                "value": false
+              },
+              "continueOnFailure": {
+                "value": false
+              }
+            }
+          },
+          "displayName": "Return Response"
+        },
+        "displayName": "Respond on UI"
+      },
+      "displayName": "Catch Webhook"
+    },
+    "updatedBy": "oGc70rnctoSrFsrk1aLyr",
+    "valid": true,
+    "state": "LOCKED"
+  }
+}
