@@ -1,0 +1,41 @@
+{
+  "id": "kS0Uz4vsnNR2xZGeYSi5M",
+  "created": "2024-12-26T13:58:10.935Z",
+  "updated": "2024-12-26T13:58:10.935Z",
+  "projectId": "j3hhNnjqQ9hyyfN10hK1J",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "publishedVersionId": null,
+  "version": {
+    "id": "Fkcrilk31tnkCqaNUDsv1",
+    "created": "2024-12-26T13:58:10.941Z",
+    "updated": "2024-12-26T13:58:41.188Z",
+    "flowId": "kS0Uz4vsnNR2xZGeYSi5M",
+    "displayName": "SubFlow",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "inputs": [],
+          "waitForResponse": false
+        },
+        "pieceName": "@activepieces/piece-forms",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "form_submission",
+        "pieceVersion": "~0.4.2"
+      },
+      "displayName": "Web Form"
+    },
+    "updatedBy": "LbobY3G3WxHLYT7h180vc",
+    "valid": true,
+    "state": "DRAFT"
+  }
+}
