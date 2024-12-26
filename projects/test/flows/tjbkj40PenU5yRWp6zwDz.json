@@ -1,0 +1,40 @@
+{
+  "id": "tjbkj40PenU5yRWp6zwDz",
+  "created": "2024-12-26T14:32:33.092Z",
+  "updated": "2024-12-26T14:32:33.092Z",
+  "projectId": "j3hhNnjqQ9hyyfN10hK1J",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "publishedVersionId": null,
+  "version": {
+    "id": "vTbGiARL3WjX9bdYcC5pv",
+    "created": "2024-12-26T14:32:33.099Z",
+    "updated": "2024-12-26T14:32:49.495Z",
+    "flowId": "tjbkj40PenU5yRWp6zwDz",
+    "displayName": "Flow2",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "minutes": 1
+        },
+        "pieceName": "@activepieces/piece-schedule",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "every_x_minutes",
+        "pieceVersion": "~0.1.5"
+      },
+      "displayName": "Every X Minutes"
+    },
+    "updatedBy": "LbobY3G3WxHLYT7h180vc",
+    "valid": true,
+    "state": "DRAFT"
+  }
+}
