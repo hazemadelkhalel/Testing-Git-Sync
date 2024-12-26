@@ -1,0 +1,40 @@
+{
+  "id": "sScMVNlNax7nyN26xsrw7",
+  "created": "2024-12-26T14:49:53.201Z",
+  "updated": "2024-12-26T14:49:53.201Z",
+  "projectId": "j3hhNnjqQ9hyyfN10hK1J",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "publishedVersionId": null,
+  "version": {
+    "id": "AnNT86kx9hgpC4ZHXsNxJ",
+    "created": "2024-12-26T14:49:53.205Z",
+    "updated": "2024-12-26T14:49:53.208Z",
+    "flowId": "sScMVNlNax7nyN26xsrw7",
+    "displayName": "Flow2",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "minutes": 1
+        },
+        "pieceName": "@activepieces/piece-schedule",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "every_x_minutes",
+        "pieceVersion": "~0.1.5"
+      },
+      "displayName": "Every X Minutes"
+    },
+    "updatedBy": "LbobY3G3WxHLYT7h180vc",
+    "valid": true,
+    "state": "DRAFT"
+  }
+}
