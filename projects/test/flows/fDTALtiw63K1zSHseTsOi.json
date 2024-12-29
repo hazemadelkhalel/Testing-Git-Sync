@@ -1,0 +1,67 @@
+{
+  "id": "fDTALtiw63K1zSHseTsOi",
+  "created": "2024-12-29T16:18:28.297Z",
+  "updated": "2024-12-29T16:18:28.297Z",
+  "projectId": "qnXx3DKg2D2zIUc7Ha59l",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "externalId": null,
+  "publishedVersionId": null,
+  "version": {
+    "id": "dAofPTBCHKARUscH1PfyZ",
+    "created": "2024-12-29T16:18:28.298Z",
+    "updated": "2024-12-29T16:19:08.717Z",
+    "flowId": "fDTALtiw63K1zSHseTsOi",
+    "displayName": "Flow2",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "minutes": 1
+        },
+        "pieceName": "@activepieces/piece-schedule",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "every_x_minutes",
+        "pieceVersion": "~0.1.5"
+      },
+      "nextAction": {
+        "name": "step_1",
+        "skip": false,
+        "type": "PIECE",
+        "valid": true,
+        "settings": {
+          "input": {},
+          "pieceName": "@activepieces/piece-forms",
+          "pieceType": "OFFICIAL",
+          "actionName": "return_response",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "~0.4.2",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": false
+            },
+            "continueOnFailure": {
+              "value": false
+            }
+          }
+        },
+        "displayName": "Respond on UI"
+      },
+      "displayName": "Every X Minutes"
+    },
+    "updatedBy": "cUnwpOejhmtUbydL94ZyF",
+    "valid": true,
+    "state": "DRAFT"
+  }
+}
