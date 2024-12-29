@@ -1,0 +1,42 @@
+{
+  "id": "PZrq4McsLa5HLMh7lM2gu",
+  "created": "2024-12-29T16:18:28.320Z",
+  "updated": "2024-12-29T16:18:28.320Z",
+  "projectId": "qnXx3DKg2D2zIUc7Ha59l",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "externalId": null,
+  "publishedVersionId": null,
+  "version": {
+    "id": "it72vWwFusDLc878Z3cSr",
+    "created": "2024-12-29T16:18:28.322Z",
+    "updated": "2024-12-29T16:18:28.324Z",
+    "flowId": "PZrq4McsLa5HLMh7lM2gu",
+    "displayName": "Flow3",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "authType": "none",
+          "authFields": {}
+        },
+        "pieceName": "@activepieces/piece-webhook",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "catch_webhook",
+        "pieceVersion": "~0.1.10"
+      },
+      "displayName": "Catch Webhook"
+    },
+    "updatedBy": "cUnwpOejhmtUbydL94ZyF",
+    "valid": true,
+    "state": "DRAFT"
+  }
+}
