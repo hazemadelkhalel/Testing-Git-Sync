@@ -1,0 +1,29 @@
+{
+  "id": "WEJD7rWPcMcpO8GNTG5RV",
+  "created": "2025-01-06T11:32:14.294Z",
+  "updated": "2025-01-06T11:32:14.294Z",
+  "projectId": "qnXx3DKg2D2zIUc7Ha59l",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "externalId": null,
+  "publishedVersionId": null,
+  "version": {
+    "id": "2j0o7ASai8u7BUqS3wRAq",
+    "created": "2025-01-06T11:32:14.299Z",
+    "updated": "2025-01-06T11:32:22.982Z",
+    "flowId": "WEJD7rWPcMcpO8GNTG5RV",
+    "displayName": "Flow3",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "EMPTY",
+      "valid": false,
+      "settings": {},
+      "displayName": "Select Trigger"
+    },
+    "updatedBy": "cUnwpOejhmtUbydL94ZyF",
+    "valid": false,
+    "state": "DRAFT"
+  }
+}
