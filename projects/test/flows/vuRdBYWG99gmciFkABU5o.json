@@ -1,0 +1,80 @@
+{
+  "id": "vuRdBYWG99gmciFkABU5o",
+  "created": "2025-01-06T20:09:12.117Z",
+  "updated": "2025-01-06T20:12:08.531Z",
+  "projectId": "qnXx3DKg2D2zIUc7Ha59l",
+  "folderId": null,
+  "status": "ENABLED",
+  "schedule": null,
+  "externalId": "97oB6vWi6wU99hYz7y396",
+  "publishedVersionId": "Vlv4N3CH8nZUL0HR8SGoO",
+  "version": {
+    "id": "Vlv4N3CH8nZUL0HR8SGoO",
+    "created": "2025-01-06T20:09:12.122Z",
+    "updated": "2025-01-06T20:12:08.542Z",
+    "flowId": "vuRdBYWG99gmciFkABU5o",
+    "displayName": "Flow2",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "authType": "none",
+          "authFields": {}
+        },
+        "pieceName": "@activepieces/piece-webhook",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "catch_webhook",
+        "pieceVersion": "0.1.10"
+      },
+      "nextAction": {
+        "name": "step_1",
+        "skip": false,
+        "type": "PIECE",
+        "valid": true,
+        "settings": {
+          "input": {
+            "cc": [],
+            "bcc": [],
+            "auth": "{{connections['Ncu8nso0nANwCOnGjccVC']}}",
+            "body": "I am testing",
+            "draft": false,
+            "subject": "Hello World",
+            "receiver": [
+              "hazemadelkhalel@gmail.com"
+            ],
+            "reply_to": [],
+            "body_type": "plain_text"
+          },
+          "pieceName": "@activepieces/piece-gmail",
+          "pieceType": "OFFICIAL",
+          "actionName": "send_email",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "0.8.1",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": false
+            },
+            "continueOnFailure": {
+              "value": false
+            }
+          }
+        },
+        "displayName": "Send Email"
+      },
+      "displayName": "Catch Webhook"
+    },
+    "updatedBy": "cUnwpOejhmtUbydL94ZyF",
+    "valid": true,
+    "state": "LOCKED"
+  }
+}
