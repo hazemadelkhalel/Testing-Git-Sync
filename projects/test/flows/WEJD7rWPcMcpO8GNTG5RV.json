@@ -1,29 +1,80 @@
 {
-  "id": "WEJD7rWPcMcpO8GNTG5RV",
-  "created": "2025-01-06T11:32:14.294Z",
-  "updated": "2025-01-06T11:32:14.294Z",
+  "id": "kR5km3LtlgAHYBbd46BvY",
+  "created": "2025-01-06T20:09:12.140Z",
+  "updated": "2025-01-06T20:24:02.800Z",
   "projectId": "qnXx3DKg2D2zIUc7Ha59l",
   "folderId": null,
-  "status": "DISABLED",
+  "status": "ENABLED",
   "schedule": null,
-  "externalId": null,
-  "publishedVersionId": null,
+  "externalId": "WEJD7rWPcMcpO8GNTG5RV",
+  "publishedVersionId": "5qMCtRz1mUPU23jEd2GRV",
   "version": {
-    "id": "2j0o7ASai8u7BUqS3wRAq",
-    "created": "2025-01-06T11:32:14.299Z",
-    "updated": "2025-01-06T11:32:22.982Z",
-    "flowId": "WEJD7rWPcMcpO8GNTG5RV",
+    "id": "5qMCtRz1mUPU23jEd2GRV",
+    "created": "2025-01-06T20:09:12.144Z",
+    "updated": "2025-01-06T20:24:02.820Z",
+    "flowId": "kR5km3LtlgAHYBbd46BvY",
     "displayName": "Flow3",
     "schemaVersion": "1",
     "trigger": {
       "name": "trigger",
-      "type": "EMPTY",
-      "valid": false,
-      "settings": {},
-      "displayName": "Select Trigger"
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "inputs": [],
+          "waitForResponse": false
+        },
+        "pieceName": "@activepieces/piece-forms",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "form_submission",
+        "pieceVersion": "0.4.2"
+      },
+      "nextAction": {
+        "name": "step_1",
+        "skip": false,
+        "type": "PIECE",
+        "valid": true,
+        "settings": {
+          "input": {
+            "cc": [],
+            "bcc": [],
+            "auth": "{{connections['Ncu8nso0nANwCOnGjccVC']}}",
+            "body": "\"Hi Body\"",
+            "draft": false,
+            "subject": "Hello World",
+            "receiver": [
+              "hazemadelkhalel@gmail.com"
+            ],
+            "reply_to": [],
+            "body_type": "plain_text"
+          },
+          "pieceName": "@activepieces/piece-gmail",
+          "pieceType": "OFFICIAL",
+          "actionName": "send_email",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "0.8.1",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": false
+            },
+            "continueOnFailure": {
+              "value": false
+            }
+          }
+        },
+        "displayName": "Send Email"
+      },
+      "displayName": "Web Form"
     },
     "updatedBy": "cUnwpOejhmtUbydL94ZyF",
-    "valid": false,
-    "state": "DRAFT"
+    "valid": true,
+    "state": "LOCKED"
   }
 }
