@@ -1,17 +1,17 @@
 {
   "id": "97oB6vWi6wU99hYz7y396",
   "created": "2025-01-06T00:40:33.174Z",
-  "updated": "2025-01-06T00:40:33.174Z",
+  "updated": "2025-01-06T20:03:21.741Z",
   "projectId": "qnXx3DKg2D2zIUc7Ha59l",
   "folderId": null,
-  "status": "DISABLED",
+  "status": "ENABLED",
   "schedule": null,
   "externalId": null,
-  "publishedVersionId": null,
+  "publishedVersionId": "uEAVkBgpRBbspBwGNls7w",
   "version": {
     "id": "uEAVkBgpRBbspBwGNls7w",
     "created": "2025-01-06T00:40:33.181Z",
-    "updated": "2025-01-06T11:31:56.691Z",
+    "updated": "2025-01-06T20:03:21.761Z",
     "flowId": "97oB6vWi6wU99hYz7y396",
     "displayName": "Flow2",
     "schemaVersion": "1",
@@ -31,7 +31,7 @@
         },
         "packageType": "REGISTRY",
         "triggerName": "catch_webhook",
-        "pieceVersion": "~0.1.10"
+        "pieceVersion": "0.1.10"
       },
       "nextAction": {
         "name": "step_1",
@@ -39,15 +39,27 @@
         "type": "PIECE",
         "valid": true,
         "settings": {
-          "input": {},
-          "pieceName": "@activepieces/piece-forms",
+          "input": {
+            "cc": [],
+            "bcc": [],
+            "auth": "{{connections['0sI4VzjTIXBCwR3f5uTD5']}}",
+            "body": "I am testing",
+            "draft": false,
+            "subject": "Hello World",
+            "receiver": [
+              "hazemadelkhalel@gmail.com"
+            ],
+            "reply_to": [],
+            "body_type": "plain_text"
+          },
+          "pieceName": "@activepieces/piece-gmail",
           "pieceType": "OFFICIAL",
-          "actionName": "return_response",
+          "actionName": "send_email",
           "inputUiInfo": {
             "customizedInputs": {}
           },
           "packageType": "REGISTRY",
-          "pieceVersion": "~0.4.2",
+          "pieceVersion": "0.8.1",
           "errorHandlingOptions": {
             "retryOnFailure": {
               "value": false
@@ -57,103 +69,12 @@
             }
           }
         },
-        "nextAction": {
-          "name": "step_2",
-          "skip": false,
-          "type": "ROUTER",
-          "valid": false,
-          "children": [
-            {
-              "name": "step_3",
-              "skip": false,
-              "type": "CODE",
-              "valid": true,
-              "settings": {
-                "input": {},
-                "sourceCode": {
-                  "code": "export const code = async (inputs) => {\n  return true;\n};",
-                  "packageJson": "{}"
-                },
-                "inputUiInfo": {
-                  "customizedInputs": {}
-                },
-                "errorHandlingOptions": {
-                  "retryOnFailure": {
-                    "value": false
-                  },
-                  "continueOnFailure": {
-                    "value": false
-                  }
-                }
-              },
-              "displayName": "Custom Javascript Code"
-            },
-            {
-              "name": "step_4",
-              "skip": false,
-              "type": "PIECE",
-              "valid": false,
-              "settings": {
-                "input": {
-                  "mode": "simple",
-                  "flowProps": {},
-                  "testingProps": {},
-                  "waitForResponse": false
-                },
-                "pieceName": "@activepieces/piece-subflows",
-                "pieceType": "OFFICIAL",
-                "actionName": "callFlow",
-                "inputUiInfo": {
-                  "customizedInputs": {}
-                },
-                "packageType": "REGISTRY",
-                "pieceVersion": "~0.1.0",
-                "errorHandlingOptions": {
-                  "retryOnFailure": {
-                    "value": false
-                  },
-                  "continueOnFailure": {
-                    "value": false
-                  }
-                }
-              },
-              "displayName": "Call Flow"
-            }
-          ],
-          "settings": {
-            "branches": [
-              {
-                "branchName": "Branch 1",
-                "branchType": "CONDITION",
-                "conditions": [
-                  [
-                    {
-                      "operator": "TEXT_EXACTLY_MATCHES",
-                      "firstValue": "",
-                      "secondValue": "",
-                      "caseSensitive": false
-                    }
-                  ]
-                ]
-              },
-              {
-                "branchName": "Otherwise",
-                "branchType": "FALLBACK"
-              }
-            ],
-            "inputUiInfo": {
-              "customizedInputs": {}
-            },
-            "executionType": "EXECUTE_FIRST_MATCH"
-          },
-          "displayName": "Router"
-        },
-        "displayName": "Respond on UI"
+        "displayName": "Send Email"
       },
       "displayName": "Catch Webhook"
     },
     "updatedBy": "cUnwpOejhmtUbydL94ZyF",
-    "valid": false,
-    "state": "DRAFT"
+    "valid": true,
+    "state": "LOCKED"
   }
 }
