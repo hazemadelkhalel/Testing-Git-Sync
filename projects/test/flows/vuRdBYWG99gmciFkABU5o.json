@@ -1,18 +1,18 @@
 {
-  "id": "vuRdBYWG99gmciFkABU5o",
-  "created": "2025-01-06T20:09:12.117Z",
-  "updated": "2025-01-06T20:12:08.531Z",
+  "id": "exOGMmqEMbrZzkO7dljXI",
+  "created": "2025-01-06T20:16:49.887Z",
+  "updated": "2025-01-06T20:16:49.887Z",
   "projectId": "qnXx3DKg2D2zIUc7Ha59l",
   "folderId": null,
-  "status": "ENABLED",
+  "status": "DISABLED",
   "schedule": null,
-  "externalId": "97oB6vWi6wU99hYz7y396",
-  "publishedVersionId": "Vlv4N3CH8nZUL0HR8SGoO",
+  "externalId": "vuRdBYWG99gmciFkABU5o",
+  "publishedVersionId": null,
   "version": {
-    "id": "Vlv4N3CH8nZUL0HR8SGoO",
-    "created": "2025-01-06T20:09:12.122Z",
-    "updated": "2025-01-06T20:12:08.542Z",
-    "flowId": "vuRdBYWG99gmciFkABU5o",
+    "id": "55sUpyu63T0MTlkxkZN9z",
+    "created": "2025-01-06T20:16:49.892Z",
+    "updated": "2025-01-06T20:16:49.903Z",
+    "flowId": "exOGMmqEMbrZzkO7dljXI",
     "displayName": "Flow2",
     "schemaVersion": "1",
     "trigger": {
@@ -31,7 +31,7 @@
         },
         "packageType": "REGISTRY",
         "triggerName": "catch_webhook",
-        "pieceVersion": "0.1.10"
+        "pieceVersion": "~0.1.10"
       },
       "nextAction": {
         "name": "step_1",
@@ -59,7 +59,7 @@
             "customizedInputs": {}
           },
           "packageType": "REGISTRY",
-          "pieceVersion": "0.8.1",
+          "pieceVersion": "~0.8.1",
           "errorHandlingOptions": {
             "retryOnFailure": {
               "value": false
@@ -75,6 +75,6 @@
     },
     "updatedBy": "cUnwpOejhmtUbydL94ZyF",
     "valid": true,
-    "state": "LOCKED"
+    "state": "DRAFT"
   }
 }
