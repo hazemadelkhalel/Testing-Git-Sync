@@ -1,15 +1,20 @@
 {
-  "created": "1736272587446",
-  "updated": "1736272587446",
-  "name": "Flow3",
-  "description": "",
-  "tags": [],
-  "pieces": [
-    "@activepieces/piece-google-sheets",
-    "@activepieces/piece-gmail"
-  ],
-  "template": {
+  "id": "kR5km3LtlgAHYBbd46BvY",
+  "created": "2025-01-06T20:09:12.140Z",
+  "updated": "2025-01-07T17:00:29.631Z",
+  "projectId": "qnXx3DKg2D2zIUc7Ha59l",
+  "folderId": null,
+  "status": "ENABLED",
+  "schedule": null,
+  "externalId": "WEJD7rWPcMcpO8GNTG5RV",
+  "publishedVersionId": "SIy8iYvezMnKnpvg292bz",
+  "version": {
+    "id": "qV9heD58UiApCajuwchI4",
+    "created": "2025-01-07T17:00:39.199Z",
+    "updated": "2025-01-07T17:04:49.098Z",
+    "flowId": "kR5km3LtlgAHYBbd46BvY",
     "displayName": "Flow3",
+    "schemaVersion": "1",
     "trigger": {
       "name": "trigger",
       "valid": true,
@@ -290,10 +295,11 @@
           "displayName": "Insert Row"
         },
         "displayName": "Send Email"
-      }
+      },
+      "displayName": "Web Form"
     },
+    "updatedBy": "cUnwpOejhmtUbydL94ZyF",
     "valid": false,
-    "schemaVersion": "1"
-  },
-  "blogUrl": ""
+    "state": "DRAFT"
+  }
 }
