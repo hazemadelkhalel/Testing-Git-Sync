@@ -1,0 +1,298 @@
+{
+  "created": "1736269495729",
+  "updated": "1736269495729",
+  "name": "Flow3",
+  "description": "",
+  "tags": [],
+  "pieces": [
+    "@activepieces/piece-forms",
+    "@activepieces/piece-gmail",
+    "@activepieces/piece-google-sheets"
+  ],
+  "template": {
+    "displayName": "Flow3",
+    "trigger": {
+      "name": "trigger",
+      "valid": true,
+      "displayName": "Web Form",
+      "type": "PIECE_TRIGGER",
+      "settings": {
+        "pieceName": "@activepieces/piece-forms",
+        "pieceVersion": "~0.4.2",
+        "pieceType": "OFFICIAL",
+        "packageType": "REGISTRY",
+        "input": {
+          "inputs": [],
+          "waitForResponse": false
+        },
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "triggerName": "form_submission"
+      },
+      "nextAction": {
+        "name": "step_1",
+        "skip": false,
+        "type": "PIECE",
+        "valid": true,
+        "settings": {
+          "input": {
+            "cc": [],
+            "bcc": [],
+            "auth": "{{connections['Ncu8nso0nANwCOnGjccVC']}}",
+            "body": "\"Hi Bodyyyy\"",
+            "draft": false,
+            "subject": "Hello World",
+            "receiver": [
+              "hazemadelkhalel@gmail.com"
+            ],
+            "reply_to": [],
+            "body_type": "plain_text"
+          },
+          "pieceName": "@activepieces/piece-gmail",
+          "pieceType": "OFFICIAL",
+          "actionName": "send_email",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "~0.8.1",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": false
+            },
+            "continueOnFailure": {
+              "value": false
+            }
+          }
+        },
+        "nextAction": {
+          "name": "step_2",
+          "skip": false,
+          "type": "PIECE",
+          "valid": true,
+          "settings": {
+            "input": {
+              "auth": "{{connections['hkzJyxn1mPK3KCFdmIpda']}}",
+              "values": {
+                "values": [
+                  "ffff"
+                ]
+              },
+              "sheet_id": 0,
+              "as_string": false,
+              "spreadsheet_id": "1htfvk7gxussVLOv1xfyD3mK_TJMWLQlJ_WyoqN5vs6U",
+              "first_row_headers": false,
+              "include_team_drives": false
+            },
+            "pieceName": "@activepieces/piece-google-sheets",
+            "pieceType": "OFFICIAL",
+            "actionName": "insert_row",
+            "inputUiInfo": {
+              "customizedInputs": {}
+            },
+            "packageType": "REGISTRY",
+            "pieceVersion": "~0.11.12",
+            "errorHandlingOptions": {
+              "retryOnFailure": {
+                "value": false
+              },
+              "continueOnFailure": {
+                "value": false
+              }
+            }
+          },
+          "nextAction": {
+            "name": "step_3",
+            "skip": false,
+            "type": "LOOP_ON_ITEMS",
+            "valid": true,
+            "settings": {
+              "items": "",
+              "inputUiInfo": {
+                "customizedInputs": {}
+              }
+            },
+            "nextAction": {
+              "name": "step_6",
+              "skip": false,
+              "type": "ROUTER",
+              "valid": false,
+              "children": [
+                {
+                  "name": "step_7",
+                  "skip": false,
+                  "type": "PIECE",
+                  "valid": false,
+                  "settings": {
+                    "input": {
+                      "cc": [],
+                      "bcc": [],
+                      "auth": "{{connections['pZxCmeqTzuCOq2XkO1Gah']}}",
+                      "draft": false,
+                      "receiver": [],
+                      "reply_to": [],
+                      "body_type": "plain_text"
+                    },
+                    "pieceName": "@activepieces/piece-gmail",
+                    "pieceType": "OFFICIAL",
+                    "actionName": "send_email",
+                    "inputUiInfo": {
+                      "customizedInputs": {}
+                    },
+                    "packageType": "REGISTRY",
+                    "pieceVersion": "~0.8.1",
+                    "errorHandlingOptions": {
+                      "retryOnFailure": {
+                        "value": false
+                      },
+                      "continueOnFailure": {
+                        "value": false
+                      }
+                    }
+                  },
+                  "displayName": "Send Email Copy"
+                },
+                {
+                  "name": "step_8",
+                  "skip": false,
+                  "type": "PIECE",
+                  "valid": false,
+                  "settings": {
+                    "input": {
+                      "auth": "{{connections['QjUmLRpS3egYw0D3dPNbj']}}",
+                      "values": {},
+                      "sheet_id": null,
+                      "as_string": false,
+                      "spreadsheet_id": null,
+                      "first_row_headers": false,
+                      "include_team_drives": false
+                    },
+                    "pieceName": "@activepieces/piece-google-sheets",
+                    "pieceType": "OFFICIAL",
+                    "actionName": "insert_row",
+                    "inputUiInfo": {
+                      "customizedInputs": {}
+                    },
+                    "packageType": "REGISTRY",
+                    "pieceVersion": "~0.11.12",
+                    "errorHandlingOptions": {
+                      "retryOnFailure": {
+                        "value": false
+                      },
+                      "continueOnFailure": {
+                        "value": false
+                      }
+                    }
+                  },
+                  "displayName": "Insert Row Copy Copy"
+                }
+              ],
+              "settings": {
+                "branches": [
+                  {
+                    "branchName": "Branch 1",
+                    "branchType": "CONDITION",
+                    "conditions": [
+                      [
+                        {
+                          "operator": "TEXT_EXACTLY_MATCHES",
+                          "firstValue": "",
+                          "secondValue": "",
+                          "caseSensitive": false
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "branchName": "Otherwise",
+                    "branchType": "FALLBACK"
+                  }
+                ],
+                "inputUiInfo": {
+                  "customizedInputs": {}
+                },
+                "executionType": "EXECUTE_FIRST_MATCH"
+              },
+              "displayName": "Router"
+            },
+            "displayName": "Loop on Items",
+            "firstLoopAction": {
+              "name": "step_4",
+              "skip": false,
+              "type": "PIECE",
+              "valid": false,
+              "settings": {
+                "input": {
+                  "cc": [],
+                  "bcc": [],
+                  "auth": "{{connections['W30YQpbxqDACbQG3WCcZv']}}",
+                  "draft": false,
+                  "receiver": [],
+                  "reply_to": [],
+                  "body_type": "plain_text"
+                },
+                "pieceName": "@activepieces/piece-gmail",
+                "pieceType": "OFFICIAL",
+                "actionName": "send_email",
+                "inputUiInfo": {
+                  "customizedInputs": {}
+                },
+                "packageType": "REGISTRY",
+                "pieceVersion": "~0.8.1",
+                "errorHandlingOptions": {
+                  "retryOnFailure": {
+                    "value": false
+                  },
+                  "continueOnFailure": {
+                    "value": false
+                  }
+                }
+              },
+              "nextAction": {
+                "name": "step_5",
+                "skip": false,
+                "type": "PIECE",
+                "valid": false,
+                "settings": {
+                  "input": {
+                    "auth": "{{connections['tCV3zSIjuwIHHn95w96EA']}}",
+                    "values": {},
+                    "sheet_id": null,
+                    "as_string": false,
+                    "spreadsheet_id": null,
+                    "first_row_headers": false,
+                    "include_team_drives": false
+                  },
+                  "pieceName": "@activepieces/piece-google-sheets",
+                  "pieceType": "OFFICIAL",
+                  "actionName": "insert_row",
+                  "inputUiInfo": {
+                    "customizedInputs": {}
+                  },
+                  "packageType": "REGISTRY",
+                  "pieceVersion": "~0.11.12",
+                  "errorHandlingOptions": {
+                    "retryOnFailure": {
+                      "value": false
+                    },
+                    "continueOnFailure": {
+                      "value": false
+                    }
+                  }
+                },
+                "displayName": "Insert Row Copy"
+              },
+              "displayName": "Send Email"
+            }
+          },
+          "displayName": "Insert Row"
+        },
+        "displayName": "Send Email"
+      }
+    },
+    "valid": false,
+    "schemaVersion": "1"
+  },
+  "blogUrl": ""
+}
