@@ -1,0 +1,29 @@
+{
+  "id": "E8aNsCDXm1kK6sp0alM0s",
+  "created": "2025-01-07T17:07:33.257Z",
+  "updated": "2025-01-07T17:07:33.257Z",
+  "projectId": "qnXx3DKg2D2zIUc7Ha59l",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "externalId": null,
+  "publishedVersionId": null,
+  "version": {
+    "id": "RVRhqre7zewAIej10Yd41",
+    "created": "2025-01-07T17:07:33.261Z",
+    "updated": "2025-01-07T17:07:33.261Z",
+    "flowId": "E8aNsCDXm1kK6sp0alM0s",
+    "displayName": "Untitled",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "EMPTY",
+      "valid": false,
+      "settings": {},
+      "displayName": "Select Trigger"
+    },
+    "updatedBy": null,
+    "valid": false,
+    "state": "DRAFT"
+  }
+}
