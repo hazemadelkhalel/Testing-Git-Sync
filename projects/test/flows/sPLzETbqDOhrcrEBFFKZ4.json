@@ -1,17 +1,17 @@
 {
   "id": "sPLzETbqDOhrcrEBFFKZ4",
   "created": "2025-01-20T10:56:44.894Z",
-  "updated": "2025-01-20T10:58:07.033Z",
+  "updated": "2025-01-20T12:03:44.188Z",
   "projectId": "CvGdemjV00ZPtJmrvnEYd",
   "folderId": null,
   "status": "ENABLED",
   "schedule": null,
   "externalId": null,
-  "publishedVersionId": "QmGHeIc6QYuukZiFKnbC8",
+  "publishedVersionId": "0YYqVahfWpux2InrHysWh",
   "version": {
-    "id": "QmGHeIc6QYuukZiFKnbC8",
-    "created": "2025-01-20T10:56:44.898Z",
-    "updated": "2025-01-20T10:58:07.051Z",
+    "id": "0YYqVahfWpux2InrHysWh",
+    "created": "2025-01-20T12:03:33.601Z",
+    "updated": "2025-01-20T12:03:44.201Z",
     "flowId": "sPLzETbqDOhrcrEBFFKZ4",
     "displayName": "Flow1",
     "schemaVersion": "1",
@@ -40,9 +40,9 @@
         "valid": true,
         "settings": {
           "input": {
-            "auth": "{{connections['DT8qGUgLTl4nWDB9Vgsdv']}}",
-            "text": "Testing releases",
-            "channel": "C04U27W7BC3"
+            "auth": "{{connections['Nt80oVJUOkE2b5qRUoq6N']}}",
+            "text": "Spammming releases 2222222222",
+            "channel": "C037DTX2ZDM"
           },
           "pieceName": "@activepieces/piece-slack",
           "pieceType": "OFFICIAL",
