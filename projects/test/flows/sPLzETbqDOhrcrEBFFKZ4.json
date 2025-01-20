@@ -1,0 +1,72 @@
+{
+  "id": "sPLzETbqDOhrcrEBFFKZ4",
+  "created": "2025-01-20T10:56:44.894Z",
+  "updated": "2025-01-20T10:58:07.033Z",
+  "projectId": "CvGdemjV00ZPtJmrvnEYd",
+  "folderId": null,
+  "status": "ENABLED",
+  "schedule": null,
+  "externalId": null,
+  "publishedVersionId": "QmGHeIc6QYuukZiFKnbC8",
+  "version": {
+    "id": "QmGHeIc6QYuukZiFKnbC8",
+    "created": "2025-01-20T10:56:44.898Z",
+    "updated": "2025-01-20T10:58:07.051Z",
+    "flowId": "sPLzETbqDOhrcrEBFFKZ4",
+    "displayName": "Flow1",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "authType": "none",
+          "authFields": {}
+        },
+        "pieceName": "@activepieces/piece-webhook",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "catch_webhook",
+        "pieceVersion": "0.1.10"
+      },
+      "nextAction": {
+        "name": "step_1",
+        "skip": false,
+        "type": "PIECE",
+        "valid": true,
+        "settings": {
+          "input": {
+            "auth": "{{connections['DT8qGUgLTl4nWDB9Vgsdv']}}",
+            "text": "Testing releases",
+            "channel": "C04U27W7BC3"
+          },
+          "pieceName": "@activepieces/piece-slack",
+          "pieceType": "OFFICIAL",
+          "actionName": "send_channel_message",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "0.7.10",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": false
+            },
+            "continueOnFailure": {
+              "value": false
+            }
+          }
+        },
+        "displayName": "Send Message To A Channel"
+      },
+      "displayName": "Catch Webhook"
+    },
+    "updatedBy": "FOVpzARiUuNNpp8JCmJXi",
+    "valid": true,
+    "state": "LOCKED"
+  }
+}
