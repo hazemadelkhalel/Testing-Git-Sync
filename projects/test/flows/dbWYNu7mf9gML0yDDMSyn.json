@@ -1,18 +1,18 @@
 {
-  "id": "dbWYNu7mf9gML0yDDMSyn",
-  "created": "2025-03-12T13:48:31.263Z",
-  "updated": "2025-03-12T14:44:34.648Z",
-  "projectId": "2nQKV85MbhJvnB0ghznSW",
-  "folderId": "z2ta6KKHhtJ33CZmRFPjw",
-  "status": "DISABLED",
+  "id": "uJkA6atYbl2bOfvwEEEPP",
+  "created": "2025-03-12T15:28:12.623Z",
+  "updated": "2025-03-12T15:28:26.371Z",
+  "projectId": "RVA5eOMQ6oLDS5msXymQ9",
+  "folderId": null,
+  "status": "ENABLED",
   "schedule": null,
-  "externalId": null,
-  "publishedVersionId": "skp6HlOGNL3EgfWmJumHg",
+  "externalId": "dbWYNu7mf9gML0yDDMSyn",
+  "publishedVersionId": "kMBwRUyMnbHL7Qglmewjj",
   "version": {
-    "id": "skp6HlOGNL3EgfWmJumHg",
-    "created": "2025-03-12T13:48:44.935Z",
-    "updated": "2025-03-12T13:51:17.780Z",
-    "flowId": "dbWYNu7mf9gML0yDDMSyn",
+    "id": "kMBwRUyMnbHL7Qglmewjj",
+    "created": "2025-03-12T15:28:12.651Z",
+    "updated": "2025-03-12T15:28:26.402Z",
+    "flowId": "uJkA6atYbl2bOfvwEEEPP",
     "displayName": "TEST",
     "schemaVersion": "1",
     "trigger": {
@@ -38,7 +38,7 @@
       },
       "displayName": "Catch Webhook"
     },
-    "updatedBy": "wpvoldiJUkDRgRJvt1OM7",
+    "updatedBy": "FhyKOLJYcBpJp88DbPRhT",
     "valid": true,
     "state": "LOCKED"
   }
