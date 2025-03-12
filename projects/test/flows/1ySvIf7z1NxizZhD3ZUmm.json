@@ -1,17 +1,17 @@
 {
   "id": "1ySvIf7z1NxizZhD3ZUmm",
   "created": "2025-03-05T09:43:31.827Z",
-  "updated": "2025-03-05T09:43:31.827Z",
+  "updated": "2025-03-12T13:29:59.856Z",
   "projectId": "RVA5eOMQ6oLDS5msXymQ9",
   "folderId": null,
-  "status": "DISABLED",
+  "status": "ENABLED",
   "schedule": null,
   "externalId": null,
-  "publishedVersionId": null,
+  "publishedVersionId": "qxcuK67BWA3KjUAuNFGNv",
   "version": {
     "id": "qxcuK67BWA3KjUAuNFGNv",
     "created": "2025-03-05T09:43:31.850Z",
-    "updated": "2025-03-12T13:28:30.934Z",
+    "updated": "2025-03-12T13:29:59.883Z",
     "flowId": "1ySvIf7z1NxizZhD3ZUmm",
     "displayName": "TESTING FLOW",
     "schemaVersion": "1",
@@ -34,109 +34,12 @@
         },
         "packageType": "REGISTRY",
         "triggerName": "catch_webhook",
-        "pieceVersion": "~0.1.13"
-      },
-      "nextAction": {
-        "name": "step_3",
-        "skip": false,
-        "type": "PIECE",
-        "valid": false,
-        "settings": {
-          "input": {},
-          "pieceName": "@activepieces/piece-activepieces",
-          "pieceType": "OFFICIAL",
-          "actionName": "update_project",
-          "inputUiInfo": {
-            "customizedInputs": {}
-          },
-          "packageType": "REGISTRY",
-          "pieceVersion": "~0.2.1",
-          "errorHandlingOptions": {
-            "retryOnFailure": {
-              "value": false
-            },
-            "continueOnFailure": {
-              "value": false
-            }
-          }
-        },
-        "nextAction": {
-          "name": "step_2",
-          "skip": false,
-          "type": "PIECE",
-          "valid": false,
-          "settings": {
-            "input": {
-              "values": {},
-              "as_string": false,
-              "first_row_headers": false,
-              "includeTeamDrives": false
-            },
-            "pieceName": "@activepieces/piece-google-sheets",
-            "pieceType": "OFFICIAL",
-            "actionName": "insert_row",
-            "inputUiInfo": {
-              "schema": {
-                "values": {}
-              },
-              "customizedInputs": {}
-            },
-            "packageType": "REGISTRY",
-            "pieceVersion": "~0.12.1",
-            "errorHandlingOptions": {
-              "retryOnFailure": {
-                "value": false
-              },
-              "continueOnFailure": {
-                "value": false
-              }
-            }
-          },
-          "nextAction": {
-            "name": "step_1",
-            "skip": false,
-            "type": "ROUTER",
-            "valid": false,
-            "children": [
-              null,
-              null
-            ],
-            "settings": {
-              "branches": [
-                {
-                  "branchName": "Branch 1",
-                  "branchType": "CONDITION",
-                  "conditions": [
-                    [
-                      {
-                        "operator": "TEXT_EXACTLY_MATCHES",
-                        "firstValue": "",
-                        "secondValue": "",
-                        "caseSensitive": false
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "branchName": "Otherwise",
-                  "branchType": "FALLBACK"
-                }
-              ],
-              "inputUiInfo": {
-                "customizedInputs": {}
-              },
-              "executionType": "EXECUTE_FIRST_MATCH"
-            },
-            "displayName": "Router"
-          },
-          "displayName": "Insert Row"
-        },
-        "displayName": "Update Project"
+        "pieceVersion": "0.1.13"
       },
       "displayName": "Catch Webhook"
     },
     "updatedBy": "FhyKOLJYcBpJp88DbPRhT",
-    "valid": false,
-    "state": "DRAFT"
+    "valid": true,
+    "state": "LOCKED"
   }
 }
