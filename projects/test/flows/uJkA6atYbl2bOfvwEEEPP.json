@@ -1,0 +1,45 @@
+{
+  "id": "dPVcja1kHlRY5wddLD0H2",
+  "created": "2025-03-20T14:04:55.512Z",
+  "updated": "2025-03-20T14:10:35.741Z",
+  "projectId": "drQpQQClxrVjfffjvkF8j",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "externalId": "uJkA6atYbl2bOfvwEEEPP",
+  "publishedVersionId": "gBU5pMyvizWRfT22gSPDx",
+  "version": {
+    "id": "gBU5pMyvizWRfT22gSPDx",
+    "created": "2025-03-20T14:04:55.524Z",
+    "updated": "2025-03-20T14:04:55.638Z",
+    "flowId": "dPVcja1kHlRY5wddLD0H2",
+    "displayName": "TEST",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "authType": "none",
+          "authFields": {}
+        },
+        "pieceName": "@activepieces/piece-webhook",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "schema": {
+            "authFields": {}
+          },
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "catch_webhook",
+        "pieceVersion": "0.1.13"
+      },
+      "displayName": "Catch Webhook"
+    },
+    "updatedBy": "gI2qM1lV0TbTCEHUtMlXE",
+    "valid": true,
+    "state": "LOCKED"
+  }
+}
