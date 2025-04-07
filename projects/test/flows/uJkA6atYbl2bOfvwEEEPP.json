@@ -45,7 +45,6 @@
           "input": {
             "cc": [],
             "bcc": [],
-            "auth": "{{connections['5p4D6UuGJczzvAXV7707P']}}",
             "body": "BOODY",
             "draft": false,
             "subject": "HELLO WORLD",
