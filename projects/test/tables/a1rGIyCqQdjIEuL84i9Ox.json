@@ -1,0 +1,49 @@
+{
+  "id": "a1rGIyCqQdjIEuL84i9Ox",
+  "name": "Test 1",
+  "externalId": null,
+  "fields": [
+    {
+      "id": "vMs2HCOLeD7WtABUcAFVq",
+      "created": "2025-05-04T16:33:54.563Z",
+      "updated": "2025-05-04T16:33:54.563Z",
+      "name": "Name",
+      "type": "TEXT",
+      "tableId": "a1rGIyCqQdjIEuL84i9Ox",
+      "projectId": "lt2YfKzgWcZ4ItQg8g9wW",
+      "externalId": null,
+      "data": null
+    },
+    {
+      "id": "viSm2cvOIGdTFmY4WMzdI",
+      "created": "2025-05-04T16:34:05.257Z",
+      "updated": "2025-05-04T16:34:05.257Z",
+      "name": "Email",
+      "type": "TEXT",
+      "tableId": "a1rGIyCqQdjIEuL84i9Ox",
+      "projectId": "lt2YfKzgWcZ4ItQg8g9wW",
+      "externalId": null,
+      "data": null
+    },
+    {
+      "id": "R0le2HgvB32TQwIUwy99o",
+      "created": "2025-05-04T16:34:20.493Z",
+      "updated": "2025-05-04T16:34:20.493Z",
+      "name": "Third",
+      "type": "STATIC_DROPDOWN",
+      "tableId": "a1rGIyCqQdjIEuL84i9Ox",
+      "projectId": "lt2YfKzgWcZ4ItQg8g9wW",
+      "externalId": null,
+      "data": {
+        "options": [
+          {
+            "value": "A"
+          },
+          {
+            "value": "B"
+          }
+        ]
+      }
+    }
+  ]
+}
