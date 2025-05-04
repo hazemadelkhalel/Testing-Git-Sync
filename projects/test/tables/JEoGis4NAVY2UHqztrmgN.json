@@ -1,0 +1,49 @@
+{
+  "id": "ZuzSnFaaluPNNW1H0YMqi",
+  "name": "Test 1",
+  "externalId": "JEoGis4NAVY2UHqztrmgN",
+  "fields": [
+    {
+      "id": "HDfQGzP10RMJ70veySvsW",
+      "created": "2025-05-04T16:33:54.563Z",
+      "updated": "2025-05-04T16:33:54.563Z",
+      "name": "Name",
+      "type": "TEXT",
+      "tableId": "ZuzSnFaaluPNNW1H0YMqi",
+      "projectId": "VLGdoFYAD9pcXwtnxGqWE",
+      "externalId": "8fmDCg6CpRmjmT12H6bcq",
+      "data": null
+    },
+    {
+      "id": "qrOX4uSNO7MSPYcGAyBfB",
+      "created": "2025-05-04T16:34:05.257Z",
+      "updated": "2025-05-04T16:34:05.257Z",
+      "name": "Email",
+      "type": "TEXT",
+      "tableId": "ZuzSnFaaluPNNW1H0YMqi",
+      "projectId": "VLGdoFYAD9pcXwtnxGqWE",
+      "externalId": "vReRDW8RpT2X0FQ6ZVYJi",
+      "data": null
+    },
+    {
+      "id": "FmyzYIwGlS4ZgotC3w9BC",
+      "created": "2025-05-04T16:34:20.493Z",
+      "updated": "2025-05-04T16:34:20.493Z",
+      "name": "Third",
+      "type": "STATIC_DROPDOWN",
+      "tableId": "ZuzSnFaaluPNNW1H0YMqi",
+      "projectId": "VLGdoFYAD9pcXwtnxGqWE",
+      "externalId": "xZbGsNehRgOiKNDl4woYf",
+      "data": {
+        "options": [
+          {
+            "value": "A"
+          },
+          {
+            "value": "B"
+          }
+        ]
+      }
+    }
+  ]
+}
