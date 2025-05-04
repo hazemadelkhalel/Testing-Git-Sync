@@ -7,6 +7,11 @@
       "name": "Name",
       "type": "TEXT",
       "externalId": "i7mcrqy5bdtwzaF6DxcWd"
+    },
+    {
+      "name": "C",
+      "type": "NUMBER",
+      "externalId": "e8SBAAZaFyTvihm2HP8GA"
     }
   ]
 }
