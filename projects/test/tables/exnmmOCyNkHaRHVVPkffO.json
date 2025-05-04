@@ -1,18 +1,12 @@
 {
-  "id": "zEOm4pRG8w0qLSJfGMuCF",
+  "id": "g2CeTofqWPEZyuwr5ChrY",
   "name": "Test 2",
   "externalId": "exnmmOCyNkHaRHVVPkffO",
   "fields": [
     {
-      "id": "bOwMytVK050LNZmo0lUsR",
-      "created": "2025-05-04T17:34:05.705Z",
-      "updated": "2025-05-04T17:34:05.705Z",
       "name": "Name",
       "type": "TEXT",
-      "tableId": "zEOm4pRG8w0qLSJfGMuCF",
-      "projectId": "VLGdoFYAD9pcXwtnxGqWE",
-      "externalId": "i7mcrqy5bdtwzaF6DxcWd",
-      "data": null
+      "externalId": "i7mcrqy5bdtwzaF6DxcWd"
     }
   ]
 }
