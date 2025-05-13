@@ -1,0 +1,131 @@
+{
+  "id": "HwgzOIFfxIPEvVhRonbcr",
+  "created": "2025-04-21T09:43:57.863Z",
+  "updated": "2025-05-13T11:44:53.840Z",
+  "projectId": "GgA1X5wlEK33bfUoxCDJY",
+  "folderId": null,
+  "status": "ENABLED",
+  "handshakeConfiguration": {
+    "strategy": "NONE"
+  },
+  "schedule": null,
+  "externalId": "HwgzOIFfxIPEvVhRonbcr",
+  "publishedVersionId": "uunOg9ZBPelJ9XaN6wwpb",
+  "metadata": null,
+  "version": {
+    "id": "uunOg9ZBPelJ9XaN6wwpb",
+    "created": "2025-04-23T20:46:04.913Z",
+    "updated": "2025-05-13T11:44:53.878Z",
+    "flowId": "HwgzOIFfxIPEvVhRonbcr",
+    "displayName": "Untitled",
+    "schemaVersion": "1",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "authType": "none",
+          "authFields": {}
+        },
+        "pieceName": "@activepieces/piece-webhook",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "schema": {
+            "authFields": {}
+          },
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "catch_webhook",
+        "pieceVersion": "0.1.14"
+      },
+      "nextAction": {
+        "name": "step_1",
+        "skip": false,
+        "type": "PIECE",
+        "valid": true,
+        "settings": {
+          "input": {
+            "title": "Title",
+            "assigneeId": "Wb2ALMF2ouaz1PcoI1TVp",
+            "statusOptions": [
+              {
+                "name": "Accepted",
+                "variant": "Positive (Green)",
+                "continueFlow": true
+              },
+              {
+                "name": "Rejected",
+                "variant": "Negative (Red)",
+                "continueFlow": true
+              }
+            ]
+          },
+          "pieceName": "@activepieces/piece-todos",
+          "pieceType": "OFFICIAL",
+          "actionName": "createTodoAndWait",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "0.0.4",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": false
+            },
+            "continueOnFailure": {
+              "value": false
+            }
+          }
+        },
+        "nextAction": {
+          "name": "step_2",
+          "skip": false,
+          "type": "ROUTER",
+          "valid": true,
+          "children": [
+            null,
+            null
+          ],
+          "settings": {
+            "branches": [
+              {
+                "branchName": "Accepted",
+                "branchType": "CONDITION",
+                "conditions": [
+                  [
+                    {
+                      "operator": "TEXT_EXACTLY_MATCHES",
+                      "firstValue": "{{ step_1['status'] }}",
+                      "secondValue": "Accepted",
+                      "caseSensitive": false
+                    }
+                  ]
+                ]
+              },
+              {
+                "branchName": "Rejected",
+                "branchType": "FALLBACK"
+              }
+            ],
+            "inputUiInfo": {
+              "customizedInputs": {
+                "logoUrl": "https://cdn.activepieces.com/pieces/manual-tasks.svg",
+                "description": "Split your flow into branches depending on todo status"
+              }
+            },
+            "executionType": "EXECUTE_FIRST_MATCH"
+          },
+          "displayName": "Check Todo Status"
+        },
+        "displayName": "Create Todo and Wait"
+      },
+      "displayName": "Catch Webhook"
+    },
+    "connectionIds": [],
+    "updatedBy": "Wb2ALMF2ouaz1PcoI1TVp",
+    "valid": true,
+    "state": "LOCKED"
+  }
+}
