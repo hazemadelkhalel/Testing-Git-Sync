@@ -1,7 +1,7 @@
 {
-  "id": "8uE8tLMDODAtO5eIWbOxR",
-  "created": "2025-05-14T11:05:55.106Z",
-  "updated": "2025-05-15T11:55:26.292Z",
+  "id": "hFspSzUL9XEjmNYa81aO6",
+  "created": "2025-05-15T12:12:40.416Z",
+  "updated": "2025-05-15T12:15:52.750Z",
   "projectId": "oduTo77U3mhWvJnjcmnI5",
   "folderId": null,
   "status": "ENABLED",
@@ -10,13 +10,13 @@
   },
   "schedule": null,
   "externalId": "dja4L66N6FyZq97zhxt2N",
-  "publishedVersionId": "MwWIVmwqsx02PwWNlpQpt",
+  "publishedVersionId": "4ptORKQMmzT4i6mUJ2h6f",
   "metadata": null,
   "version": {
-    "id": "MwWIVmwqsx02PwWNlpQpt",
-    "created": "2025-05-15T06:19:39.773Z",
-    "updated": "2025-05-15T11:55:26.390Z",
-    "flowId": "8uE8tLMDODAtO5eIWbOxR",
+    "id": "4ptORKQMmzT4i6mUJ2h6f",
+    "created": "2025-05-15T12:12:40.419Z",
+    "updated": "2025-05-15T12:15:52.829Z",
+    "flowId": "hFspSzUL9XEjmNYa81aO6",
     "displayName": "FLOWWW",
     "schemaVersion": "1",
     "trigger": {
@@ -74,7 +74,7 @@
               "filters": {
                 "filters": []
               },
-              "table_id": "axRoKBb7JhBpNOch4anVj"
+              "table_id": "7YBOA3HGoUe8PXnAPGlLT"
             },
             "pieceName": "@activepieces/piece-tables",
             "pieceType": "OFFICIAL",
@@ -164,12 +164,11 @@
                 "values": {
                   "values": [
                     {
-                      "73T62vuoBbHj4kXU5Ev62": "BEBEB",
-                      "sUqScEkLqEWoYcgtLOD13": "HAHAHA"
+                      "Q7S4UrxQOBIjENI4kT93G": ""
                     }
                   ]
                 },
-                "table_id": "axRoKBb7JhBpNOch4anVj"
+                "table_id": "7YBOA3HGoUe8PXnAPGlLT"
               },
               "pieceName": "@activepieces/piece-tables",
               "pieceType": "OFFICIAL",
@@ -181,14 +180,7 @@
                       "type": "ARRAY",
                       "required": true,
                       "properties": {
-                        "73T62vuoBbHj4kXU5Ev62": {
-                          "type": "SHORT_TEXT",
-                          "required": false,
-                          "description": "Text",
-                          "displayName": "Email",
-                          "defaultValue": ""
-                        },
-                        "sUqScEkLqEWoYcgtLOD13": {
+                        "Q7S4UrxQOBIjENI4kT93G": {
                           "type": "SHORT_TEXT",
                           "required": false,
                           "description": "Text",
@@ -221,7 +213,7 @@
               "valid": true,
               "settings": {
                 "input": {
-                  "table_id": "axRoKBb7JhBpNOch4anVj",
+                  "table_id": "7YBOA3HGoUe8PXnAPGlLT",
                   "records_ids": [
                     "uJQLvWCJ4JNaka08zZCaS"
                   ]
@@ -250,7 +242,7 @@
                 "valid": true,
                 "settings": {
                   "input": {
-                    "table_id": "axRoKBb7JhBpNOch4anVj",
+                    "table_id": "7YBOA3HGoUe8PXnAPGlLT",
                     "record_id": "9sdDX0UsFQAhvlfoZ8GeG"
                   },
                   "pieceName": "@activepieces/piece-tables",
@@ -278,10 +270,9 @@
                   "settings": {
                     "input": {
                       "values": {
-                        "73T62vuoBbHj4kXU5Ev62": "BEBE@GMAIL.COM",
-                        "sUqScEkLqEWoYcgtLOD13": "BEBEBEB"
+                        "Q7S4UrxQOBIjENI4kT93G": ""
                       },
-                      "table_id": "axRoKBb7JhBpNOch4anVj",
+                      "table_id": "7YBOA3HGoUe8PXnAPGlLT",
                       "record_id": "uJQLvWCJ4JNaka08zZCaS"
                     },
                     "pieceName": "@activepieces/piece-tables",
@@ -290,14 +281,7 @@
                     "inputUiInfo": {
                       "schema": {
                         "values": {
-                          "73T62vuoBbHj4kXU5Ev62": {
-                            "type": "SHORT_TEXT",
-                            "required": false,
-                            "description": "Text",
-                            "displayName": "Email",
-                            "defaultValue": ""
-                          },
-                          "sUqScEkLqEWoYcgtLOD13": {
+                          "Q7S4UrxQOBIjENI4kT93G": {
                             "type": "SHORT_TEXT",
                             "required": false,
                             "description": "Text",
