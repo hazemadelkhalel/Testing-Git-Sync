@@ -1,0 +1,12 @@
+{
+  "id": "TeiC2cjojG8xWtGKxiPOb",
+  "name": "TEST TABLE",
+  "externalId": "TeiC2cjojG8xWtGKxiPOb",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "TEXT",
+      "externalId": "quK3RJwfVrsObzEkfvGrM"
+    }
+  ]
+}
