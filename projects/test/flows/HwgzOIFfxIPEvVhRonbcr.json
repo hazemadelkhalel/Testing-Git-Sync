@@ -1,8 +1,8 @@
 {
-  "id": "HwgzOIFfxIPEvVhRonbcr",
-  "created": "2025-04-21T09:43:57.863Z",
-  "updated": "2025-05-13T11:44:53.840Z",
-  "projectId": "GgA1X5wlEK33bfUoxCDJY",
+  "id": "V9in8hOc9PyawwKRrjILc",
+  "created": "2025-06-05T00:00:43.057Z",
+  "updated": "2025-06-05T00:02:20.981Z",
+  "projectId": "oI90IHLSIY6DIMYz6o64l",
   "folderId": null,
   "status": "ENABLED",
   "handshakeConfiguration": {
@@ -10,15 +10,15 @@
   },
   "schedule": null,
   "externalId": "HwgzOIFfxIPEvVhRonbcr",
-  "publishedVersionId": "uunOg9ZBPelJ9XaN6wwpb",
+  "publishedVersionId": "ACUXxqG0Ya0pQbMt3M6N4",
   "metadata": null,
   "version": {
-    "id": "uunOg9ZBPelJ9XaN6wwpb",
-    "created": "2025-04-23T20:46:04.913Z",
-    "updated": "2025-05-13T11:44:53.878Z",
-    "flowId": "HwgzOIFfxIPEvVhRonbcr",
-    "displayName": "Untitled",
-    "schemaVersion": "1",
+    "id": "ACUXxqG0Ya0pQbMt3M6N4",
+    "created": "2025-06-05T00:01:11.026Z",
+    "updated": "2025-06-05T00:02:24.053Z",
+    "flowId": "V9in8hOc9PyawwKRrjILc",
+    "displayName": "Flow",
+    "schemaVersion": "2",
     "trigger": {
       "name": "trigger",
       "type": "PIECE_TRIGGER",
@@ -38,7 +38,7 @@
         },
         "packageType": "REGISTRY",
         "triggerName": "catch_webhook",
-        "pieceVersion": "0.1.14"
+        "pieceVersion": "0.1.15"
       },
       "nextAction": {
         "name": "step_1",
@@ -47,29 +47,26 @@
         "valid": true,
         "settings": {
           "input": {
-            "title": "Title",
-            "assigneeId": "Wb2ALMF2ouaz1PcoI1TVp",
-            "statusOptions": [
-              {
-                "name": "Accepted",
-                "variant": "Positive (Green)",
-                "continueFlow": true
-              },
-              {
-                "name": "Rejected",
-                "variant": "Negative (Red)",
-                "continueFlow": true
-              }
-            ]
+            "cc": [],
+            "bcc": [],
+            "auth": "{{connections['7c1mLiOIUYJbu7ftot66b']}}",
+            "body": "va",
+            "draft": false,
+            "subject": "av",
+            "receiver": [
+              "haha"
+            ],
+            "reply_to": [],
+            "body_type": "plain_text"
           },
-          "pieceName": "@activepieces/piece-todos",
+          "pieceName": "@activepieces/piece-gmail",
           "pieceType": "OFFICIAL",
-          "actionName": "createTodoAndWait",
+          "actionName": "send_email",
           "inputUiInfo": {
             "customizedInputs": {}
           },
           "packageType": "REGISTRY",
-          "pieceVersion": "0.0.4",
+          "pieceVersion": "0.8.2",
           "errorHandlingOptions": {
             "retryOnFailure": {
               "value": false
@@ -79,52 +76,14 @@
             }
           }
         },
-        "nextAction": {
-          "name": "step_2",
-          "skip": false,
-          "type": "ROUTER",
-          "valid": true,
-          "children": [
-            null,
-            null
-          ],
-          "settings": {
-            "branches": [
-              {
-                "branchName": "Accepted",
-                "branchType": "CONDITION",
-                "conditions": [
-                  [
-                    {
-                      "operator": "TEXT_EXACTLY_MATCHES",
-                      "firstValue": "{{ step_1['status'] }}",
-                      "secondValue": "Accepted",
-                      "caseSensitive": false
-                    }
-                  ]
-                ]
-              },
-              {
-                "branchName": "Rejected",
-                "branchType": "FALLBACK"
-              }
-            ],
-            "inputUiInfo": {
-              "customizedInputs": {
-                "logoUrl": "https://cdn.activepieces.com/pieces/manual-tasks.svg",
-                "description": "Split your flow into branches depending on todo status"
-              }
-            },
-            "executionType": "EXECUTE_FIRST_MATCH"
-          },
-          "displayName": "Check Todo Status"
-        },
-        "displayName": "Create Todo and Wait"
+        "displayName": "Send Email"
       },
       "displayName": "Catch Webhook"
     },
-    "connectionIds": [],
-    "updatedBy": "Wb2ALMF2ouaz1PcoI1TVp",
+    "connectionIds": [
+      "7c1mLiOIUYJbu7ftot66b"
+    ],
+    "updatedBy": "XnGo0LhxVsPLsU16KIzZ6",
     "valid": true,
     "state": "LOCKED"
   }
