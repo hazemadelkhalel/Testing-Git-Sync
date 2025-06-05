@@ -1,7 +1,7 @@
 {
   "id": "V9in8hOc9PyawwKRrjILc",
   "created": "2025-06-05T00:00:43.057Z",
-  "updated": "2025-06-05T00:02:20.981Z",
+  "updated": "2025-06-05T00:05:03.388Z",
   "projectId": "oI90IHLSIY6DIMYz6o64l",
   "folderId": null,
   "status": "ENABLED",
@@ -10,14 +10,14 @@
   },
   "schedule": null,
   "externalId": "HwgzOIFfxIPEvVhRonbcr",
-  "publishedVersionId": "ACUXxqG0Ya0pQbMt3M6N4",
+  "publishedVersionId": "G0zkYQZGr4SqqfFGqgUSs",
   "metadata": null,
   "version": {
-    "id": "ACUXxqG0Ya0pQbMt3M6N4",
-    "created": "2025-06-05T00:01:11.026Z",
-    "updated": "2025-06-05T00:02:24.053Z",
+    "id": "G0zkYQZGr4SqqfFGqgUSs",
+    "created": "2025-06-05T00:05:03.365Z",
+    "updated": "2025-06-05T00:08:42.020Z",
     "flowId": "V9in8hOc9PyawwKRrjILc",
-    "displayName": "Flow",
+    "displayName": "Flow 2",
     "schemaVersion": "2",
     "trigger": {
       "name": "trigger",
