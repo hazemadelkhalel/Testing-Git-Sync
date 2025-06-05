@@ -1,7 +1,7 @@
 {
   "id": "wpi32N8qdqOHxugZpGFkm",
   "created": "2025-06-05T02:03:50.577Z",
-  "updated": "2025-06-05T02:04:04.969Z",
+  "updated": "2025-06-05T02:06:10.260Z",
   "projectId": "oI90IHLSIY6DIMYz6o64l",
   "folderId": null,
   "status": "ENABLED",
@@ -10,12 +10,12 @@
   },
   "schedule": null,
   "externalId": "VtmQF5I6RXUk3Ihxc3J6H",
-  "publishedVersionId": "vOSGawL2XBdrbAT93295T",
+  "publishedVersionId": "KuVOwuilaEWjrU91cyCPX",
   "metadata": null,
   "version": {
-    "id": "vOSGawL2XBdrbAT93295T",
-    "created": "2025-06-05T02:04:04.935Z",
-    "updated": "2025-06-05T02:04:06.102Z",
+    "id": "KuVOwuilaEWjrU91cyCPX",
+    "created": "2025-06-05T02:06:10.248Z",
+    "updated": "2025-06-05T02:06:10.432Z",
     "flowId": "wpi32N8qdqOHxugZpGFkm",
     "displayName": "Flow 1",
     "schemaVersion": "2",
@@ -49,7 +49,7 @@
           "input": {
             "cc": [],
             "bcc": [],
-            "auth": "{{connections['GfMHOe5R36jHQNl3lZWLo']}}",
+            "auth": "{{connections['dikgyikPcrMSVHrRHHTjo']}}",
             "body": "va",
             "draft": false,
             "subject": "av",
@@ -81,7 +81,7 @@
       "displayName": "Catch Webhook"
     },
     "connectionIds": [
-      "GfMHOe5R36jHQNl3lZWLo"
+      "dikgyikPcrMSVHrRHHTjo"
     ],
     "updatedBy": "XnGo0LhxVsPLsU16KIzZ6",
     "valid": true,
