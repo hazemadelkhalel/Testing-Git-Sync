@@ -1,7 +1,7 @@
 {
   "id": "V9in8hOc9PyawwKRrjILc",
   "created": "2025-06-05T00:00:43.057Z",
-  "updated": "2025-06-05T00:17:16.842Z",
+  "updated": "2025-06-05T01:37:52.380Z",
   "projectId": "oI90IHLSIY6DIMYz6o64l",
   "folderId": null,
   "status": "ENABLED",
@@ -10,12 +10,12 @@
   },
   "schedule": null,
   "externalId": "HwgzOIFfxIPEvVhRonbcr",
-  "publishedVersionId": "PUv4tKKrjdWGNFZdzR79t",
+  "publishedVersionId": "teLyvaAXxEwuBiiwO6sh8",
   "metadata": null,
   "version": {
-    "id": "PUv4tKKrjdWGNFZdzR79t",
-    "created": "2025-06-05T00:17:16.829Z",
-    "updated": "2025-06-05T00:17:16.998Z",
+    "id": "teLyvaAXxEwuBiiwO6sh8",
+    "created": "2025-06-05T01:37:52.360Z",
+    "updated": "2025-06-05T01:37:52.592Z",
     "flowId": "V9in8hOc9PyawwKRrjILc",
     "displayName": "Flow 3",
     "schemaVersion": "2",
@@ -49,7 +49,7 @@
           "input": {
             "cc": [],
             "bcc": [],
-            "auth": "{{connections['XpnMrSadtIFb5qBQsJ8dj']}}",
+            "auth": "{{connections['GfMHOe5R36jHQNl3lZWLo']}}",
             "body": "va",
             "draft": false,
             "subject": "av",
@@ -81,7 +81,7 @@
       "displayName": "Catch Webhook"
     },
     "connectionIds": [
-      "XpnMrSadtIFb5qBQsJ8dj"
+      "GfMHOe5R36jHQNl3lZWLo"
     ],
     "updatedBy": "XnGo0LhxVsPLsU16KIzZ6",
     "valid": true,
