@@ -1,7 +1,7 @@
 {
   "id": "F72OIHa9gTDEE4ettd9qs",
   "created": "2025-06-10T14:17:35.007Z",
-  "updated": "2025-06-10T14:18:48.806Z",
+  "updated": "2025-06-10T14:32:02.791Z",
   "projectId": "oI90IHLSIY6DIMYz6o64l",
   "folderId": null,
   "status": "ENABLED",
@@ -10,12 +10,12 @@
   },
   "schedule": null,
   "externalId": "eIWCocNQe7PeUvmT5cgkW",
-  "publishedVersionId": "799w1H8tJBdYLEb9c8u8y",
+  "publishedVersionId": "jJy7aGvkaieVN43vcOwVL",
   "metadata": null,
   "version": {
-    "id": "799w1H8tJBdYLEb9c8u8y",
-    "created": "2025-06-10T14:18:38.785Z",
-    "updated": "2025-06-10T14:18:49.938Z",
+    "id": "jJy7aGvkaieVN43vcOwVL",
+    "created": "2025-06-10T14:31:55.691Z",
+    "updated": "2025-06-10T14:34:19.022Z",
     "flowId": "F72OIHa9gTDEE4ettd9qs",
     "displayName": "Untitled",
     "schemaVersion": "2",
@@ -37,9 +37,49 @@
         "triggerName": "catch_webhook",
         "pieceVersion": "0.1.15"
       },
+      "nextAction": {
+        "name": "step_1",
+        "skip": false,
+        "type": "PIECE",
+        "valid": true,
+        "settings": {
+          "input": {
+            "cc": [],
+            "bcc": [],
+            "auth": "{{connections['dikgyikPcrMSVHrRHHTjo']}}",
+            "body": "vava",
+            "draft": false,
+            "subject": "va",
+            "receiver": [
+              "vava"
+            ],
+            "reply_to": [],
+            "body_type": "plain_text"
+          },
+          "pieceName": "@activepieces/piece-gmail",
+          "pieceType": "OFFICIAL",
+          "actionName": "send_email",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "0.8.2",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": false
+            },
+            "continueOnFailure": {
+              "value": false
+            }
+          }
+        },
+        "displayName": "Send Email"
+      },
       "displayName": "Catch Webhook"
     },
-    "connectionIds": [],
+    "connectionIds": [
+      "dikgyikPcrMSVHrRHHTjo"
+    ],
     "updatedBy": "XnGo0LhxVsPLsU16KIzZ6",
     "valid": true,
     "state": "LOCKED"
