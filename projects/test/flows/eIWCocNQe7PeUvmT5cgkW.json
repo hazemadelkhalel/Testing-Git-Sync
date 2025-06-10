@@ -1,7 +1,7 @@
 {
-  "id": "KZ9CuA6U4wa3fpQYNLkhp",
-  "created": "2025-06-05T00:00:43.096Z",
-  "updated": "2025-06-05T00:00:43.133Z",
+  "id": "F72OIHa9gTDEE4ettd9qs",
+  "created": "2025-06-10T14:17:35.007Z",
+  "updated": "2025-06-10T14:18:48.806Z",
   "projectId": "oI90IHLSIY6DIMYz6o64l",
   "folderId": null,
   "status": "ENABLED",
@@ -9,15 +9,15 @@
     "strategy": "NONE"
   },
   "schedule": null,
-  "externalId": "dbWYNu7mf9gML0yDDMSyn",
-  "publishedVersionId": "RkYwmLcmp9AdC2cApJdm3",
+  "externalId": "eIWCocNQe7PeUvmT5cgkW",
+  "publishedVersionId": "799w1H8tJBdYLEb9c8u8y",
   "metadata": null,
   "version": {
-    "id": "RkYwmLcmp9AdC2cApJdm3",
-    "created": "2025-06-05T00:00:43.101Z",
-    "updated": "2025-06-05T00:00:47.270Z",
-    "flowId": "KZ9CuA6U4wa3fpQYNLkhp",
-    "displayName": "TEST",
+    "id": "799w1H8tJBdYLEb9c8u8y",
+    "created": "2025-06-10T14:18:38.785Z",
+    "updated": "2025-06-10T14:18:49.938Z",
+    "flowId": "F72OIHa9gTDEE4ettd9qs",
+    "displayName": "Untitled",
     "schemaVersion": "2",
     "trigger": {
       "name": "trigger",
@@ -31,9 +31,6 @@
         "pieceName": "@activepieces/piece-webhook",
         "pieceType": "OFFICIAL",
         "inputUiInfo": {
-          "schema": {
-            "authFields": {}
-          },
           "customizedInputs": {}
         },
         "packageType": "REGISTRY",
