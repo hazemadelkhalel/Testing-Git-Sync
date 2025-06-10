@@ -1,21 +1,21 @@
 {
   "id": "W8mwB3keDNTUE61qlLftJ",
   "created": "2025-06-05T00:00:43.176Z",
-  "updated": "2025-06-10T14:17:16.421Z",
+  "updated": "2025-06-10T14:37:15.303Z",
   "projectId": "oI90IHLSIY6DIMYz6o64l",
   "folderId": null,
-  "status": "DISABLED",
+  "status": "ENABLED",
   "handshakeConfiguration": {
     "strategy": "NONE"
   },
   "schedule": null,
   "externalId": "uJkA6atYbl2bOfvwEEEPP",
-  "publishedVersionId": "a1s1utRmwFEQLyREmpznb",
+  "publishedVersionId": "9RFHimQ1CzkvrR0ggOXdh",
   "metadata": null,
   "version": {
-    "id": "a1s1utRmwFEQLyREmpznb",
-    "created": "2025-06-05T11:41:37.139Z",
-    "updated": "2025-06-05T13:12:26.851Z",
+    "id": "9RFHimQ1CzkvrR0ggOXdh",
+    "created": "2025-06-10T14:37:06.658Z",
+    "updated": "2025-06-10T14:37:56.939Z",
     "flowId": "W8mwB3keDNTUE61qlLftJ",
     "displayName": "TEST",
     "schemaVersion": "2",
@@ -40,9 +40,49 @@
         "triggerName": "catch_webhook",
         "pieceVersion": "0.1.15"
       },
+      "nextAction": {
+        "name": "step_1",
+        "skip": false,
+        "type": "PIECE",
+        "valid": true,
+        "settings": {
+          "input": {
+            "cc": [],
+            "bcc": [],
+            "auth": "{{connections['ovwaGA8354tiQyuDrLI0O']}}",
+            "body": "va",
+            "draft": false,
+            "subject": "vas",
+            "receiver": [
+              "va"
+            ],
+            "reply_to": [],
+            "body_type": "plain_text"
+          },
+          "pieceName": "@activepieces/piece-gmail",
+          "pieceType": "OFFICIAL",
+          "actionName": "send_email",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "0.8.2",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": false
+            },
+            "continueOnFailure": {
+              "value": false
+            }
+          }
+        },
+        "displayName": "Send Email"
+      },
       "displayName": "Catch Webhook"
     },
-    "connectionIds": [],
+    "connectionIds": [
+      "ovwaGA8354tiQyuDrLI0O"
+    ],
     "updatedBy": "XnGo0LhxVsPLsU16KIzZ6",
     "valid": true,
     "state": "LOCKED"
