@@ -1,8 +1,8 @@
 {
-  "id": "W8mwB3keDNTUE61qlLftJ",
-  "created": "2025-06-05T00:00:43.176Z",
-  "updated": "2025-06-10T14:37:15.303Z",
-  "projectId": "oI90IHLSIY6DIMYz6o64l",
+  "id": "RMFFVqi7ESkJtFp15YENJ",
+  "created": "2025-06-11T09:54:26.028Z",
+  "updated": "2025-06-11T09:54:38.241Z",
+  "projectId": "EDiNVRaZLmQGgGkhmXElm",
   "folderId": null,
   "status": "ENABLED",
   "handshakeConfiguration": {
@@ -10,13 +10,13 @@
   },
   "schedule": null,
   "externalId": "uJkA6atYbl2bOfvwEEEPP",
-  "publishedVersionId": "9RFHimQ1CzkvrR0ggOXdh",
+  "publishedVersionId": "gI5xSW4qfTxwNUR5fr46w",
   "metadata": null,
   "version": {
-    "id": "9RFHimQ1CzkvrR0ggOXdh",
-    "created": "2025-06-10T14:37:06.658Z",
-    "updated": "2025-06-10T14:37:56.939Z",
-    "flowId": "W8mwB3keDNTUE61qlLftJ",
+    "id": "gI5xSW4qfTxwNUR5fr46w",
+    "created": "2025-06-11T09:54:38.151Z",
+    "updated": "2025-06-11T09:54:44.004Z",
+    "flowId": "RMFFVqi7ESkJtFp15YENJ",
     "displayName": "TEST",
     "schemaVersion": "2",
     "trigger": {
@@ -76,6 +76,31 @@
             }
           }
         },
+        "nextAction": {
+          "name": "step_2",
+          "skip": false,
+          "type": "CODE",
+          "valid": true,
+          "settings": {
+            "input": {},
+            "sourceCode": {
+              "code": "export const code = async (inputs) => {\n  return true;\n};",
+              "packageJson": "{}"
+            },
+            "inputUiInfo": {
+              "customizedInputs": {}
+            },
+            "errorHandlingOptions": {
+              "retryOnFailure": {
+                "value": false
+              },
+              "continueOnFailure": {
+                "value": false
+              }
+            }
+          },
+          "displayName": "Custom Javascript Code"
+        },
         "displayName": "Send Email"
       },
       "displayName": "Catch Webhook"
@@ -83,7 +108,7 @@
     "connectionIds": [
       "ovwaGA8354tiQyuDrLI0O"
     ],
-    "updatedBy": "XnGo0LhxVsPLsU16KIzZ6",
+    "updatedBy": "qUVthJ0bTwOcxjZoWvnAx",
     "valid": true,
     "state": "LOCKED"
   }
