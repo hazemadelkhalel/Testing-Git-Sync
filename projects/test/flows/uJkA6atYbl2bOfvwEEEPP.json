@@ -1,8 +1,8 @@
 {
-  "id": "RMFFVqi7ESkJtFp15YENJ",
-  "created": "2025-06-11T09:54:26.028Z",
-  "updated": "2025-06-11T09:54:38.241Z",
-  "projectId": "EDiNVRaZLmQGgGkhmXElm",
+  "id": "W8mwB3keDNTUE61qlLftJ",
+  "created": "2025-06-05T00:00:43.176Z",
+  "updated": "2025-06-11T09:59:55.381Z",
+  "projectId": "oI90IHLSIY6DIMYz6o64l",
   "folderId": null,
   "status": "ENABLED",
   "handshakeConfiguration": {
@@ -10,13 +10,13 @@
   },
   "schedule": null,
   "externalId": "uJkA6atYbl2bOfvwEEEPP",
-  "publishedVersionId": "gI5xSW4qfTxwNUR5fr46w",
+  "publishedVersionId": "WFQg3juRVejk01JRZD6FZ",
   "metadata": null,
   "version": {
-    "id": "gI5xSW4qfTxwNUR5fr46w",
-    "created": "2025-06-11T09:54:38.151Z",
-    "updated": "2025-06-11T09:54:44.004Z",
-    "flowId": "RMFFVqi7ESkJtFp15YENJ",
+    "id": "WFQg3juRVejk01JRZD6FZ",
+    "created": "2025-06-11T09:59:55.362Z",
+    "updated": "2025-06-11T09:59:56.363Z",
+    "flowId": "W8mwB3keDNTUE61qlLftJ",
     "displayName": "TEST",
     "schemaVersion": "2",
     "trigger": {
@@ -108,7 +108,7 @@
     "connectionIds": [
       "ovwaGA8354tiQyuDrLI0O"
     ],
-    "updatedBy": "qUVthJ0bTwOcxjZoWvnAx",
+    "updatedBy": "XnGo0LhxVsPLsU16KIzZ6",
     "valid": true,
     "state": "LOCKED"
   }
