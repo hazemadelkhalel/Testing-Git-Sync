@@ -1,24 +1,20 @@
 {
-  "id": "nB7GnULcri2mwbNG4iMvS",
-  "created": "2025-07-29T19:12:55.045Z",
-  "updated": "2025-07-29T19:47:54.204Z",
-  "projectId": "SnTaSrDYdEuYCt5f4eGad",
+  "id": "CLGXaRDMxUDphbhTs17jp",
+  "created": "2025-08-25T18:30:57.563Z",
+  "updated": "2025-08-25T18:30:59.925Z",
+  "projectId": "5t2dzpofbTAjz5wuH5SNI",
   "folderId": null,
   "status": "ENABLED",
-  "handshakeConfiguration": {
-    "strategy": "NONE"
-  },
-  "schedule": null,
   "externalId": "CvblHhPgfdIpmAkOiK4wG",
-  "publishedVersionId": "GhZdXDxI4vtoedd3Ffy7M",
+  "publishedVersionId": "o91UmYrwDC0VZh7QE8G58",
   "metadata": null,
   "version": {
-    "id": "GhZdXDxI4vtoedd3Ffy7M",
-    "created": "2025-07-29T19:47:49.711Z",
-    "updated": "2025-07-29T19:47:53.270Z",
-    "flowId": "nB7GnULcri2mwbNG4iMvS",
+    "id": "o91UmYrwDC0VZh7QE8G58",
+    "created": "2025-08-25T18:30:57.573Z",
+    "updated": "2025-08-25T18:30:57.654Z",
+    "flowId": "CLGXaRDMxUDphbhTs17jp",
     "displayName": "Caller Flow",
-    "schemaVersion": "5",
+    "schemaVersion": "6",
     "trigger": {
       "name": "trigger",
       "type": "PIECE_TRIGGER",
@@ -38,7 +34,7 @@
         },
         "packageType": "REGISTRY",
         "triggerName": "catch_webhook",
-        "pieceVersion": "0.1.16"
+        "pieceVersion": "0.1.20"
       },
       "nextAction": {
         "name": "step_1",
@@ -97,7 +93,7 @@
             "customizedInputs": {}
           },
           "packageType": "REGISTRY",
-          "pieceVersion": "0.3.0",
+          "pieceVersion": "0.3.2",
           "errorHandlingOptions": {
             "retryOnFailure": {
               "value": false
@@ -138,7 +134,7 @@
     },
     "connectionIds": [],
     "agentIds": [],
-    "updatedBy": "LRT0GfQfVznWSW0GWUvX2",
+    "updatedBy": "GbKalJTcY1M2TPMtn7DEg",
     "valid": true,
     "state": "LOCKED"
   }

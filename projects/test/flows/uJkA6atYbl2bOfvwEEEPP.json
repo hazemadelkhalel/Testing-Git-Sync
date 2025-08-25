@@ -1,24 +1,20 @@
 {
-  "id": "W8mwB3keDNTUE61qlLftJ",
-  "created": "2025-06-05T00:00:43.176Z",
-  "updated": "2025-06-11T09:59:55.381Z",
-  "projectId": "oI90IHLSIY6DIMYz6o64l",
+  "id": "U4VO2ctdnpKND1lh7hU8O",
+  "created": "2025-08-25T18:30:57.693Z",
+  "updated": "2025-08-25T18:30:59.961Z",
+  "projectId": "5t2dzpofbTAjz5wuH5SNI",
   "folderId": null,
   "status": "ENABLED",
-  "handshakeConfiguration": {
-    "strategy": "NONE"
-  },
-  "schedule": null,
   "externalId": "uJkA6atYbl2bOfvwEEEPP",
-  "publishedVersionId": "WFQg3juRVejk01JRZD6FZ",
+  "publishedVersionId": "LXVMfH7rvKPo6sfSMXFjp",
   "metadata": null,
   "version": {
-    "id": "WFQg3juRVejk01JRZD6FZ",
-    "created": "2025-06-11T09:59:55.362Z",
-    "updated": "2025-06-11T09:59:56.363Z",
-    "flowId": "W8mwB3keDNTUE61qlLftJ",
+    "id": "LXVMfH7rvKPo6sfSMXFjp",
+    "created": "2025-08-25T18:30:57.712Z",
+    "updated": "2025-08-25T18:30:57.900Z",
+    "flowId": "U4VO2ctdnpKND1lh7hU8O",
     "displayName": "TEST",
-    "schemaVersion": "2",
+    "schemaVersion": "6",
     "trigger": {
       "name": "trigger",
       "type": "PIECE_TRIGGER",
@@ -38,7 +34,7 @@
         },
         "packageType": "REGISTRY",
         "triggerName": "catch_webhook",
-        "pieceVersion": "0.1.15"
+        "pieceVersion": "0.1.20"
       },
       "nextAction": {
         "name": "step_1",
@@ -66,7 +62,7 @@
             "customizedInputs": {}
           },
           "packageType": "REGISTRY",
-          "pieceVersion": "0.8.2",
+          "pieceVersion": "0.8.6",
           "errorHandlingOptions": {
             "retryOnFailure": {
               "value": false
@@ -108,7 +104,8 @@
     "connectionIds": [
       "ovwaGA8354tiQyuDrLI0O"
     ],
-    "updatedBy": "XnGo0LhxVsPLsU16KIzZ6",
+    "agentIds": [],
+    "updatedBy": "GbKalJTcY1M2TPMtn7DEg",
     "valid": true,
     "state": "LOCKED"
   }
