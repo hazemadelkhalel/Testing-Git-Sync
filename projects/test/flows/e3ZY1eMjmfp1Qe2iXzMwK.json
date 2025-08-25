@@ -1,0 +1,45 @@
+{
+  "id": "4ZK3A0MNJ4BGqobpu6MWc",
+  "created": "2025-08-25T18:34:04.253Z",
+  "updated": "2025-08-25T18:34:16.270Z",
+  "projectId": "H0oOHaUaTxIDe6QaGckis",
+  "folderId": null,
+  "status": "ENABLED",
+  "externalId": "e3ZY1eMjmfp1Qe2iXzMwK",
+  "publishedVersionId": "R5RRvtuv7Q2rdeR7T27lQ",
+  "metadata": null,
+  "version": {
+    "id": "R5RRvtuv7Q2rdeR7T27lQ",
+    "created": "2025-08-25T18:34:04.258Z",
+    "updated": "2025-08-25T18:34:16.198Z",
+    "flowId": "4ZK3A0MNJ4BGqobpu6MWc",
+    "displayName": "HAZOMA RELASES",
+    "schemaVersion": "6",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": true,
+      "settings": {
+        "input": {
+          "authType": "none",
+          "authFields": {}
+        },
+        "pieceName": "@activepieces/piece-webhook",
+        "inputUiInfo": {
+          "schema": {
+            "authFields": {}
+          },
+          "customizedInputs": {}
+        },
+        "triggerName": "catch_webhook",
+        "pieceVersion": "0.1.20"
+      },
+      "displayName": "Catch Webhook"
+    },
+    "connectionIds": [],
+    "agentIds": [],
+    "updatedBy": "GbKalJTcY1M2TPMtn7DEg",
+    "valid": true,
+    "state": "LOCKED"
+  }
+}
