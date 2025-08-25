@@ -1,0 +1,12 @@
+{
+  "id": "7KT4fnUFxjUuBkCwCpfdf",
+  "externalId": "hMCJMuWvUue13Qz1FryUz",
+  "name": "Bemwa Table",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "TEXT",
+      "externalId": "f7trJQya2xdbaSdxl9Rtq"
+    }
+  ]
+}
