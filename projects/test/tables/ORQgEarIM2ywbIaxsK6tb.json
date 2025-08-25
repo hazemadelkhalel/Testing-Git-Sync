@@ -1,0 +1,12 @@
+{
+  "id": "9mujFhzJoC76Uzx35ZReg",
+  "name": "Table1",
+  "externalId": "ORQgEarIM2ywbIaxsK6tb",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "TEXT",
+      "externalId": "hEvza2m5YjM28jp44jJd5"
+    }
+  ]
+}
