@@ -1,0 +1,28 @@
+{
+  "id": "Jr4HqiBxLSMDvJy1TSFYt",
+  "created": "2025-08-25T21:26:28.040Z",
+  "updated": "2025-08-25T21:26:28.040Z",
+  "profilePictureUrl": "https://cdn.activepieces.com/quicknew/agents/robots/robot_2083.png",
+  "displayName": "Email Assistant",
+  "description": "Helps compose and send professional emails.",
+  "maxSteps": 10,
+  "mcpId": "pf6gW8jtA96ByNsCKr8IG",
+  "systemPrompt": "## Goal\nAssist in composing and sending professional emails.\n\n## Instructions\n1. Gather relevant information regarding the email content and recipients.\n2. Draft the email using appropriate language and tone based on context.\n3. Include a clear subject line summarizing the email's purpose.\n4. Review and edit the email for clarity and correctness before sending.\n\n## Constraints or Style Guidelines\n- Use a formal tone unless specified otherwise.\n- Maintain clarity and brevity in email content.\n- Ensure proper grammar and spelling in all communications.",
+  "projectId": "5t2dzpofbTAjz5wuH5SNI",
+  "platformId": "X2yTqywGw8bJfbHNG11K8",
+  "outputType": "no_output",
+  "externalId": "9prG0TvOfNTfVpdOQidJi",
+  "outputFields": [],
+  "runCompleted": 0,
+  "mcp": {
+    "id": "pf6gW8jtA96ByNsCKr8IG",
+    "created": "2025-08-25T21:26:24.547Z",
+    "updated": "2025-08-25T21:26:28.048Z",
+    "name": "Fresh Agent",
+    "agentId": "Jr4HqiBxLSMDvJy1TSFYt",
+    "projectId": "5t2dzpofbTAjz5wuH5SNI",
+    "token": "Ox0FeSpBIf44f4uQzJQmN",
+    "externalId": "tpDOJSeFWFkQ9qSkNdk63",
+    "tools": []
+  }
+}
