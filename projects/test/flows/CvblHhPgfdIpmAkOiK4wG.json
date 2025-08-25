@@ -1,13 +1,6 @@
 {
   "id": "CLGXaRDMxUDphbhTs17jp",
-  "created": "2025-08-25T18:30:57.563Z",
-  "updated": "2025-08-25T18:30:59.925Z",
-  "projectId": "5t2dzpofbTAjz5wuH5SNI",
-  "folderId": null,
-  "status": "ENABLED",
   "externalId": "CvblHhPgfdIpmAkOiK4wG",
-  "publishedVersionId": "o91UmYrwDC0VZh7QE8G58",
-  "metadata": null,
   "version": {
     "id": "o91UmYrwDC0VZh7QE8G58",
     "created": "2025-08-25T18:30:57.573Z",
@@ -137,5 +130,12 @@
     "updatedBy": "GbKalJTcY1M2TPMtn7DEg",
     "valid": true,
     "state": "LOCKED"
-  }
+  },
+  "created": "2025-08-25T18:30:57.563Z",
+  "updated": "2025-08-25T18:30:59.925Z",
+  "folderId": null,
+  "publishedVersionId": "o91UmYrwDC0VZh7QE8G58",
+  "metadata": null,
+  "projectId": "5t2dzpofbTAjz5wuH5SNI",
+  "status": "ENABLED"
 }
